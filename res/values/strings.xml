@@ -1,5 +1,96 @@
 <resources>
 
-    <string name="app_name">FinalsincArithmattackGame</string>
+    <string name="app_name">Arithmattack</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_backtomain">Back</string>
+    <string name="action_about">About</string>
+    <string name="action_help">Help</string>
+    <string name="startButtonString">New Game</string>
+    <string name="resumeButtonString">Resume Game</string>
+    <string name="quitButtonString">Exit</string>
+    <string name="pausebutton">Pause</string>
+    <string name="holdbuttonstring">Hold</string>
+    <string name="highscoreListDescription">Highscores</string>
+    <string name="startLevelDialogTitle">Starting Level</string>
+    <string name="startLevelDialogCancel">Cancel</string>
+    <string name="startLevelDialogStart">Start</string>
+    <string name="title_activity_game">Arithmattack</string>
+    <string name="title_activity_help">Help</string>
+    <string name="score_title">Score</string>
+    <string name="level_title">Level</string>
+    <string name="time_title">Time</string>
+    <string name="apm_title">APM</string>
+    <string name="fps_title">FPS</string>
+    <string name="defeatDialogTitle">Game Over</string>
+    <string name="defeatDialogReturn">Back</string>
+    <string name="tab">\u0009</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="scoreLabel">Score:</string>
+    <string name="timeLabel">Time:</string>
+    <string name="apmLabel">Total APM:</string>
+    <string name="hint">Hint: Blockinger is playable in both screen orientations.</string>
+    <string name="highscore_title">Highscores</string>
+
+    <!-- Preference Strings -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="pref_fps_summary">The current Frames per Second will be shown below "APM"</string>
+    <string name="pref_fps_title">Show FPS</string>
+    <string name="pref_popup_summary">For successful line clears</string>
+    <string name="pref_popup_title">Pop-Up Text</string>
+    <string name="pref_rng_title">Piece Generation</string>
+    <string name="pref_rngs_default">sevenbag</string>
+    <string name="pref_rng_summary">Choose how the sequence of pieces is generated. 7-Bag-Randomization is highly recommended and is also used in competitive Tetris</string>
+
+    <string name="softdropspeed_pref_title">Soft Drop Speed</string>
+    <string name="movespeed_pref_title">Horizontal Speed</string>
+    <string name="soundvolume_pref_title">Effects Volume</string>
+    <string name="musicvolume_pref_title">Music Volume</string>
+    <string name="pref_vibration_button_title">Button Vibration</string>
+    <string name="pref_vibration_button_summary">Vibrates shortly when pressing the game buttons</string>
+    <string name="pref_vibration_events_title">Event Vibration</string>
+    <string name="pref_vibration_events_summary">Vibrates on important game events</string>
+
+    <!-- Advanced Preference Strings -->
+    <string name="pref_button_sound_summary">Provides auditory feedback when pressing the game buttons</string>
+    <string name="pref_button_sound_title">Button Sound</string>
+    <string name="pref_fpslimit_summary">Significantly lowers power consumption but may slow down the game</string>
+    <string name="pref_fpslimit_title">Limit FPS</string>
+    <string name="pref_fpslimittext_summary">The game tries to maintain this frame rate as closely as possible</string>
+    <string name="pref_fpslimittext_title">Target FPS</string>
+    <string name="pref_fpslimittext_default">30</string>
+    <string name="pref_vibDurOffset_summary">Increase this time to compensate for the delay of your phone\'s vibrator. The duration of button vibrations should be adjusted to be just barely noticeable.\nTime in milliseconds</string>
+    <string name="pref_vibDurOffset_title">Button Vibration Duration</string>
+    <string name="pref_vibDurOffset_default">15</string>
+    <string name="pref_antialiasing_summary">Improves the display quality of text. Disable this for better performance</string>
+    <string name="pref_antialiasing_title">Text Anti-Aliasing</string>
+    <string name="pref_version_summary">1.0</string>
+    <string name="pref_version_title">Version</string>
+    <string name="repository_url">https://github.com/FinalsINC/Game</string>
+    <string name="pref_license_summary">Blockinger is free software: licensed under the GNU General Public License (GPLv3) as published by the Free Software Foundation.\nTouch here to view this license online</string>
+    <string name="pref_license_title">License Information</string>
+    <string name="license_url">http://www.gnu.org/licenses/gpl-3.0</string>
+    <string name="pref_author_summary">Finals INC</string>
+    <string name="pref_author_title">Author</string>
+    <string name="pref_author_url">finals356.wix.com/home</string>
+    <string name="pref_category_sound">SOUND</string>
+    <string name="pref_category_vibration">VIBRATION</string>
+    <string name="pref_category_other">OTHER</string>
+    <string name="pref_category_advanced">Advanced</string>
+    <string name="pref_category_layout">LAYOUT</string>
+
+    <!-- Help Menu Strings -->
+    <string name="pref_help_scoring_title">Scoring</string>
+    <string name="pref_help_scoring_summary">How does the scoring work?</string>
+    <string name="pref_help_scoring_message">Basic points are given:\n50 points for each correct equation.</string>
+    <string name="pref_help_levels_title">Levels</string>
+    <string name="pref_help_levels_summary">What do Levels mean?</string>
+    <string name="pref_help_levels_message">Levels are a measurement of difficulty.\nThe operations of each piece differs with each level.\nEasy levels include addition and subtraction.\nMedium levels include multiplication and division.\nHard levels include all four operations.</string>
+    <string name="pref_help_fps_title">FPS</string>
+    <string name="pref_help_fps_summary">What does FPS mean? What is it useful for?</string>
+    <string name="pref_help_fps_message">FPS means \"Frames Per Second\".\nThis measures the frequency of display updates. Low FPS can be notices by slow reactions from the game and choppy displaying. High FPS on the other hand consume more power. A good trade-off between display smoothness and power consumption can be achieved between 25 and 35 FPS.\nFPS can be limited in advanced settings.</string>
+	<string name="pref_help_resumability_title">Resumability</string>
+    <string name="pref_help_resumability_summary">Under which conditions is an interrupted game resumable?</string>
+    <string name="pref_help_resumability_message">The game is resumable from the main screen, if the \"Pause\" button or the native android \"Back\" button was hit.\nThe game is also resumable, if the player switches to another application or the home screen and doesn\'t exit Blockinger.\nThe game will not be resumable, if the \"Exit\" menu entry was hit from the main screen.</string>
 
 </resources>
