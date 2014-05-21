@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/solo" >
+    
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="378dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="378dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/0"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="405dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/1"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="405dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/2"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="405dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/3"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="405dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/4"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="405dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/5"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="432dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/6"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="432dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/7"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="432dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/8"
+        android:layout_width="55dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="208dp"
+        android:layout_marginTop="432dp"
+        android:visibility="invisible" />
+    
+    <Button
+        android:id="@+id/9"
+        android:layout_width="57dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="262dp"
+        android:layout_marginTop="432dp"
+        android:visibility="invisible" />
+
+</FrameLayout>
