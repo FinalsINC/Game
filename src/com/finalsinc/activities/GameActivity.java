@@ -1,13 +1,13 @@
 package com.finalsinc.activities;
 
 // WORK ON DIS
-import org.blockinger.game.BlockBoardView;
-import org.blockinger.game.R;
-import org.blockinger.game.WorkThread;
-import org.blockinger.game.components.Controls;
-import org.blockinger.game.components.Display;
-import org.blockinger.game.components.GameState;
-import org.blockinger.game.components.Sound;
+import com.finalsinc.arithmattackgame.BlockBoardView;
+import com.finalsinc.arithmattackgame.R;
+import com.finalsinc.arithmattackgame.WorkThread;
+import com.finalsinc.components.Controls;
+import com.finalsinc.components.Display;
+import com.finalsinc.components.GameState;
+import com.finalsinc.components.Sound;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -38,14 +38,16 @@ public class GameActivity extends FragmentActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		this.requestWindowFeature(Window.FEATURE_NO_TITLE);
-		if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean(
-				"pref_layoutswap", false)) {
-			setContentView(R.layout.activity_game_alt);
-			layoutSwap = true;
-		} else {
-			setContentView(R.layout.activity_game);
-			layoutSwap = false;
-		}
+//		if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean(
+//				"pref_layoutswap", false)) {
+//			setContentView(R.layout.activity_game_alt);
+//			layoutSwap = true;
+//		} else {
+//			setContentView(R.layout.activity_game);
+//			layoutSwap = false;
+//		}
+		
+		setContentView(R.layout.solo_game);
 
 		/* Read Starting Arguments */
 		Bundle b = getIntent().getExtras();
