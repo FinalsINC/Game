@@ -23,7 +23,7 @@ import android.view.View.OnTouchListener;
 
 public class GameActivity extends FragmentActivity {
 
-	public Sound sound;
+//	public Sound sound;
 	public Controls controls;
 	public Display display;
 	public GameState game;
