@@ -92,7 +92,7 @@ public class NumbPad {
 		btn8 = (Button) iView.findViewById(R.id.button8);
 		btn9 = (Button) iView.findViewById(R.id.button9);
 		btn0 = (Button) iView.findViewById(R.id.button0);
-		btnC = (Button) iView.findViewById(R.id.buttonC);
+		btnC = (Button) iView.findViewById(R.id.delete);
 		//btnDot = (Button) iView.findViewById(R.id.buttonDot);
 
 		btnC.setOnClickListener(new Button.OnClickListener() {
